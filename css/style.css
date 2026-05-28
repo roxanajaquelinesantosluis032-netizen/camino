@@ -1,0 +1,148 @@
+/* Ajuste general para las filas y el cuerpo de tablas */
+tr, tbody {
+    width: 100%; 
+}
+
+/* Estilo para la celda izquierda del encabezado (logo izquierdo) */
+.left-h {
+    width: 15%;
+}
+
+/* Imagen dentro del logo izquierdo */
+.left-h img {
+    width: 100%;
+    height: auto;
+    text-align: right;
+    object-fit: cover;
+}
+
+/* Estilo para la celda logo  */
+.right-h {
+    width: 75%;
+}
+
+/* Imagen dentro del logo de letras */
+.right-h img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    text-align: left;
+}
+
+/* Color de fondo general del cuerpo de la página */
+body {
+    background-color: #e6f3ff; /* Azul muy claro */
+    color: #003366; /* Azul marino oscuro para el texto */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para la barra de navegación o menu */
+.navbar {
+    background-color: #3399ff; /* Azul medio */
+}
+
+/* Color de los enlaces de navegación */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Color del encabezado de las tablas */
+.table thead {
+    background-color: #b3d9ff; 
+    color: white;
+}
+
+/* Fondo alternado para las filas impares del cuerpo de la tabla */
+.table tbody tr:nth-child(odd) {
+    background-color: #cce7ff; /* Azul claro */
+}
+
+/* Fondo alternado para las filas pares del cuerpo de la tabla */
+.table tbody tr:nth-child(even) {
+    background-color: #e6f3ff; /* Azul más claro */
+}
+
+/* Estilo de los contenedores generales (como el formulario) */
+.container {
+    background-color: #f0f8ff; /* Azul muy pálido (casi blanco) */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(10, 0, 0, 0.1);
+}
+
+/* Estilo general para el formulario */
+form {
+    background-color: #d0eaff; /* Azul pastel */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para inputs de texto y select del formulario */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aacce6;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilo para botón tipo input */
+input[type="button"] {
+    background-color: #99ccff; /* Azul claro */
+    color: #003366; /* Texto azul oscuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Efecto hover sobre el botón */
+input[type="button"]:hover {
+    background-color: #3399ff; /* Azul fuerte */
+}
+
+/* Tarjeta para mostrar productos como tortillas */
+.tortilla-card {
+    background-color: #e6f3ff; /* Fondo azul suave */
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+/* Título dentro de la tarjeta */
+.tortilla-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00264d; /* Azul marino */
+    margin-bottom: 1rem;
+}
+
+/* Imagen de la tarjeta */
+.tortilla-img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* Descripción del producto */
+.tortilla-desc {
+    font-size: 1.1rem;
+    color: #001f33;
+    margin-bottom: 1rem;
+}
+
+/* Precio del producto */
+.tortilla-price {
+    font-size: 1.2rem;
+}
+
+/* Cantidad del precio con color especial */
+.price-amount {
+    color: #004080; /* Azul profundo */
+    font-weight: bold;
+}
